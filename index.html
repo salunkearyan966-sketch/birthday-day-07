@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 7 - Polaroid Wall For Shree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="main">
+  <p class="tag">Day 7 of 29 📸</p>
+  <h1>Polaroid Wall For Shree ❤️</h1>
+
+  <p class="intro">
+    Some pictures are not just pictures. They are tiny memories kept close to the heart.
+  </p>
+
+  <div class="wall">
+    <div class="polaroid" onclick="showMemory(0)">
+      <img src="images/pics1.jpeg" alt="Memory 1">
+      <p>Memory 1</p>
+    </div>
+
+    <div class="polaroid" onclick="showMemory(1)">
+      <img src="images/pics2.jpeg" alt="Memory 2">
+      <p>Memory 2</p>
+    </div>
+
+    <div class="polaroid" onclick="showMemory(2)">
+      <img src="images/pics3.jpeg" alt="Memory 3">
+      <p>Memory 3</p>
+    </div>
+
+    <div class="polaroid" onclick="showMemory(3)">
+      <img src="images/pics4.jpeg" alt="Memory 4">
+      <p>Memory 4</p>
+    </div>
+
+    <div class="polaroid" onclick="showMemory(4)">
+      <img src="images/pics5.jpeg" alt="Memory 5">
+      <p>Memory 5</p>
+    </div>
+
+    <div class="polaroid secret" onclick="showMemory(5)">
+      <img src="images/pics6.jpeg" alt="Secret Letter">
+      <p>Secret Letter 💌</p>
+    </div>
+  </div>
+
+  <div id="memoryBox" class="memory-box">
+    Click any polaroid to open a memory 💖
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
